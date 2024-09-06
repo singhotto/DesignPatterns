@@ -3,11 +3,13 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
 # Target executable
-TARGET = house_app
+TARGET = main
 
 # Source files
-SRC = ./code/House.cc \
+SRC = ./code/House.cpp \
       ./code/WoodHouseBuilder.cpp \
+      ./code/LuxuryHouse.cpp \
+      ./code/Director.cpp \
       ./main.cpp
 
 # Object files (replace .cpp with .o)
